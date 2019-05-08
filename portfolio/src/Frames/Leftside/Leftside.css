@@ -1,0 +1,20 @@
+.leftSide-View {
+   min-height: 100vh;
+background-color: #2f384f; 
+color: #f4f4f4;
+}
+
+.leftSide-btn 
+   {
+      position: absolute;
+       z-index: 1;
+       bottom: 10%;
+       left: 5%;
+       
+       
+    
+   }
+
+
+
+

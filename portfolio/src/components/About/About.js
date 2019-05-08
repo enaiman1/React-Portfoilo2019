@@ -2,9 +2,9 @@ import React from 'react'
 import './About.css'
 import Biopic from '../../media/bioPic.JPG'
 
-function About() {
+function About(props) {
   return (
-    <div className="about w3-third">
+    <div className="about w3-col">
 
   {/* image */}
     <div className="w3-cell-row w3-center w3-margin-top"> 
@@ -12,8 +12,8 @@ function About() {
      </div>
       
       {/* about */}
-      <div class=" w3-cell-row ">
-        <h2 class=" w3-padding-16 w3-center">About</h2>
+      <div className=" w3-cell-row ">
+        <h2 className=" w3-padding-16 w3-center">About</h2>
         <div className="w3-container w3-padding w3-margin">
           <p>
             I am a customer centric, full stack web developer, with an accomplished food & beverage management
@@ -34,10 +34,10 @@ function About() {
       </div>
       <div className="w3-row btnRow">
                 <div className="w3-col m6">
-                    <button className="w3-button w3-white w3-border w3-round" >Technologies</button>
+                    <button className="w3-button w3-white w3-border w3-round" data-page="technology" onClick={props.changePage}>Technologies</button>
                 </div>
                 <div className=" w3-col m6">
-                    <button className="w3-button w3-white w3-border w3-round" >Contact</button>
+                    <button className="w3-button w3-white w3-border w3-round" data-page="contact" onClick={props.changePage}>Contact</button>
                 </div>
             </div>
 
