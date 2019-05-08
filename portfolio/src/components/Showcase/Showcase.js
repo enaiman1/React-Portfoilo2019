@@ -2,7 +2,7 @@ import React from 'react'
 import './Showcase.css'
 import Logo from '../../media/logoWhite_shadow.png';
 
-function Showcase() {
+function Showcase(props) {
     return (
         <div class="showcase w3-twothird">
 
@@ -18,10 +18,10 @@ function Showcase() {
 
                 <div className="w3-row showcaseBtn">
                     <div className="w3-col m6">
-                        <button className="w3-button w3-white w3-border w3-round" >Portfolio</button>
+                        <button className="w3-button w3-white w3-border w3-round" data-page="projects" onClick={props.changePage}>Projects</button>
                     </div>
                     <div className=" w3-col m6">
-                        <button className="w3-button w3-white w3-border w3-round" >Website</button>
+                        <button className="w3-button w3-white w3-border w3-round" data-page="website" onClick={props.changePage} >Website</button>
                     </div>
                 </div>
                 

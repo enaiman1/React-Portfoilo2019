@@ -42,7 +42,15 @@ render (){
                 <div className="w3-row">
                 {this.showpage()}
                 </div>
-                {/* <div className="w3-row leftSide-btn ">
+               
+    </div>
+    )
+
+}
+}
+export default LeftSide;
+
+ {/* <div className="w3-row leftSide-btn ">
                 <div className="w3-col m6">
                         <button className="w3-button w3-white w3-border w3-round" data-page="about" onClick={this.changePage} >About</button>
                     </div>
@@ -53,9 +61,3 @@ render (){
                         <button className="w3-button w3-white w3-border w3-round" data-page="contact" onClick={this.changePage}>Contact</button>
                     </div>
                 </div> */}
-    </div>
-    )
-
-}
-}
-export default LeftSide;

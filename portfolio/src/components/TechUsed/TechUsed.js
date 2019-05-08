@@ -3,6 +3,7 @@ import './TechUsed.css';
 
 function TechUsed(props) {
     return (
+      <React.Fragment>
     <div className="techUsed w3-col">
     <h2 className="w3-padding-16 w3-center" >Technologies Used</h2>
     
@@ -96,15 +97,17 @@ function TechUsed(props) {
         </div>
       </div>
       {/* <!-- //end row four (techUsed)\\ --> */}
-      <div className="w3-row btnRow">
-                <div className="w3-col m6">
-                    <button className="w3-button w3-white w3-border w3-round" data-page="about" onClick={props.changePage}>About</button>
-                </div>
-                <div className=" w3-col m6">
-                    <button className="w3-button w3-white w3-border w3-round" data-page="contact" onClick={props.changePage}>Contact</button>
-                </div>
-            </div>
+     
   </div>
+   <div className="w3-row btnRow">
+   <div className="w3-col m6">
+       <button className="w3-button w3-white w3-border w3-round" data-page="about" onClick={props.changePage}>About</button>
+   </div>
+   <div className=" w3-col m6">
+       <button className="w3-button w3-white w3-border w3-round" data-page="contact" onClick={props.changePage}>Contact</button>
+   </div>
+</div>
+</React.Fragment>
 //   <!-- //end tech used\\ -->
 );
 }

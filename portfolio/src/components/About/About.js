@@ -32,7 +32,7 @@ function About(props) {
         </div>
         {/* end about */}
       </div>
-      <div className="w3-row btnRow">
+      <div className="w3-row aboutBtn">
                 <div className="w3-col m6">
                     <button className="w3-button w3-white w3-border w3-round" data-page="technology" onClick={props.changePage}>Technologies</button>
                 </div>
