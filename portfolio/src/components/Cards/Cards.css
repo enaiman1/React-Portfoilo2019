@@ -1,0 +1,9 @@
+.card .cardInfo,
+.card .cardHeader {
+     color: #2f384f;
+     background-color: #f4f4f4;
+} 
+
+.card:hover {
+    opacity: 0.35;
+}

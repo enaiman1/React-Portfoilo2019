@@ -1,23 +1,20 @@
 import React, { Component } from 'react';
-import Showcase from '../../components/Showcase';
-import Projects from '../../components/Projects';
-import Websites from '../../components/Websites';
+import Contact from '../../components/Contact'
+import About from '../../components/About'
 import './Rightside.css'
 
 
 class RightSide extends Component{
 state = {
-    page: "showcase"
+    page: "about"
 }
 showpage(){
     switch(this.state.page){
-        case "showcase":
-        return <Showcase changePage={this.changePage}/>
-        case "projects":
-        return <Projects changePage={this.changePage}/>
-        case "website":
-        return <Websites changePage={this.changePage}/>
-        default:
+        case "about": 
+        return <About changePage={this.changePage} />
+        case "contact": 
+        return <Contact changePage={this.changePage}/>
+        default:   
     }
 }
 
@@ -31,7 +28,7 @@ changePage = (e) => {
 
 render(){
     return (
-        <div className='RightSide-View w3-twothird'>
+        <div className='RightSide-View w3-third'>
         <div className="w3-row">
         {this.showpage()}
         </div>

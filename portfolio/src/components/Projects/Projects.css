@@ -1,7 +1,6 @@
-.project{
-    height: 100vh;
-    overflow: auto;
-    background-color: #ac5f2c; 
-    color: #f4f4f4;
-
+.Projects{
+    height: 100%;
+ 
+    background-color: #7ab643; 
+    margin-top: 60px;
 }

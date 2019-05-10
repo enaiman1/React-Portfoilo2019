@@ -1,8 +1,8 @@
 .showcase::after{
     content:"";
-    height: 95vh;
-    widows: 100%;
-    margin-top: 50px;
+    height: 100vh;
+    /* widows: 100%; */
+    /* margin-top: 10px; */
     background-image: url(../../media/header.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -11,10 +11,10 @@
     filter: blur(10px);
     -webkit-filter: blur(10px);
     transition: all 1000ms;
-    background-color: #2f384f
+    background-color: #2f384f;
+ 
 }
-.showcase:hover::after,
-.btnRow:hover::after{
+.showcase:hover::after{
     filter: blur(0px);
     -webkit-filter: blur(0px);
 }
@@ -23,16 +23,20 @@
     -webkit-filter: blur(2px);
 }
 
+.showcase:hover .showcaseBtn {
+    z-index: 1;
+}
+
 /* logo */
 .content {
     position: absolute;
     z-index: 1;
     top: 10%;
-   left: 55%;
+   left: 25%;
     width: 300px;
     height: 350px;
     text-align: center;
-    transition: all 1000ms;
+    /* transition: all 1000ms; */
 }
 .content .logo {
 height: 280px;
@@ -48,10 +52,9 @@ width: 289px;
 
 .showcaseBtn {
    position: absolute;
-    z-index: 1;
-    bottom: 10%;
-    left:55%;
-    
+    z-index: 0;
+    bottom: 5%;
+    left: 20%;    
 }
 
 

@@ -11,12 +11,15 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 </p>
 </div>
 <div className="w3-row websiteBtn">
-                <div className="w3-col m6">
+                <div className="w3-col m4">
                     <button className="w3-button w3-white w3-border w3-round" data-page="showcase" onClick={props.changePage}>Main</button>
                 </div>
-                <div className=" w3-col m6">
+                <div className=" w3-col m4">
                     <button className="w3-button w3-white w3-border w3-round" data-page="projects" onClick={props.changePage}>Projects</button>
                 </div>
+                <div className="w3-col m4">
+                        <button className="w3-button w3-white w3-border w3-round" data-page="technology" onClick={props.changePage}>Tech Used</button>
+                    </div>
             </div>
 </React.Fragment>
 )

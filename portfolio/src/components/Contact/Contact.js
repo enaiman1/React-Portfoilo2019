@@ -3,6 +3,7 @@ import './Contact.js'
 
 function Contact(props) {
     return (
+        <React.Fragment>
         <div className="w3-container w3-padding-32" id="contact">
             <h2 className=" w3-padding-16 w3-center" data-aos="flip-down">Contact</h2>
             <p className="w3-opacity w3-center"><i>Fan? Drop a note!</i></p>
@@ -18,15 +19,13 @@ function Contact(props) {
                      </a>
                 </div>
             </div>
-            <div className="w3-row btnRow">
+        </div> 
+        <div className="w3-row btnRow">
                 <div className="w3-col m6">
                     <button className="w3-button w3-white w3-border w3-round" data-page="about" onClick={props.changePage}>About</button>
                 </div>
-                <div className=" w3-col m6">
-                    <button className="w3-button w3-white w3-border w3-round" data-page="technology" onClick={props.changePage}>technology</button>
-                </div>
             </div>
-        </div> 
+        </React.Fragment>
     )
 
 }

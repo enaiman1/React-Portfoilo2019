@@ -99,14 +99,17 @@ function TechUsed(props) {
       {/* <!-- //end row four (techUsed)\\ --> */}
      
   </div>
-   <div className="w3-row btnRow">
-   <div className="w3-col m6">
-       <button className="w3-button w3-white w3-border w3-round" data-page="about" onClick={props.changePage}>About</button>
-   </div>
-   <div className=" w3-col m6">
-       <button className="w3-button w3-white w3-border w3-round" data-page="contact" onClick={props.changePage}>Contact</button>
-   </div>
-</div>
+  <div className="w3-row techBtn">
+                <div className="w3-col m4">
+                        <button className="w3-button w3-white w3-border w3-round" data-page="showcase" onClick={props.changePage}>Main</button>
+                    </div>
+                    <div className="w3-col m4">
+                        <button className="w3-button w3-white w3-border w3-round" data-page="projects" onClick={props.changePage}>Projects</button>
+                    </div>
+                    <div className=" w3-col m4">
+                        <button className="w3-button w3-white w3-border w3-round" data-page="website" onClick={props.changePage} >Website</button>
+                    </div>
+                </div>
 </React.Fragment>
 //   <!-- //end tech used\\ -->
 );

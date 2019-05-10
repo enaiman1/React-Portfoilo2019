@@ -1,7 +1,7 @@
 .leftSide-View {
    min-height: 100vh;
-background-color: #2f384f; 
-color: #f4f4f4;
+   overflow: auto;
+
 }
 
 .leftSide-btn 

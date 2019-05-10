@@ -1,12 +1,16 @@
 
 .about{
-    height: 100vh;
-    overflow: auto;
+   min-height: 100vh;
+   /* margin-top: 10px; */
     background-color: #2f384f; 
     color: #f4f4f4;
 
 }
+
 .bioPic {
     border-radius: 10px;
     width: 50%;
+    margin-top: 4.5rem;
+    padding: 1rem;
 }
+

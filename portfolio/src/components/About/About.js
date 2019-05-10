@@ -7,13 +7,13 @@ function About(props) {
     <div className="about w3-col">
 
   {/* image */}
-    <div className="w3-cell-row w3-center w3-margin-top"> 
+    <div className="w3-row w3-center"> 
       <img src={Biopic} className= "bioPic" alt="Eric Naiman logo"></img>
      </div>
       
       {/* about */}
-      <div className=" w3-cell-row ">
-        <h2 className=" w3-padding-16 w3-center">About</h2>
+      <div className=" w3-row ">
+        <h2 className=" w3-center">About</h2>
         <div className="w3-container w3-padding w3-margin">
           <p>
             I am a customer centric, full stack web developer, with an accomplished food & beverage management
@@ -32,11 +32,8 @@ function About(props) {
         </div>
         {/* end about */}
       </div>
-      <div className="w3-row aboutBtn">
-                <div className="w3-col m6">
-                    <button className="w3-button w3-white w3-border w3-round" data-page="technology" onClick={props.changePage}>Technologies</button>
-                </div>
-                <div className=" w3-col m6">
+      <div className="w3-row w3-center  w3-padding aboutBtn ">
+                <div className=" w3-content">
                     <button className="w3-button w3-white w3-border w3-round" data-page="contact" onClick={props.changePage}>Contact</button>
                 </div>
             </div>

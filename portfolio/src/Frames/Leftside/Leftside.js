@@ -1,25 +1,26 @@
 import React, { Component } from 'react';
-import About from '../../components/About'
+import Showcase from '../../components/Showcase';
 import Technology from '../../components/TechUsed'
-import Contact from '../../components/Contact'
+import Projects from '../../components/Projects';
+import Websites from '../../components/Websites';
 import './Leftside.css'
-
-
 
 
 class LeftSide extends Component {
     state = {
-        page: "about"
+        page: "showcase"
     }
     showpage(){
         switch(this.state.page){
-            case "about": 
-            return <About changePage={this.changePage} />
+            case "showcase":
+            return <Showcase changePage={this.changePage}/>
             case "technology": 
             return <Technology changePage={this.changePage}/>
-            case "contact": 
-            return <Contact changePage={this.changePage}/>
-            default:   
+            case "projects":
+            return <Projects changePage={this.changePage}/>
+            case "website":
+            return <Websites changePage={this.changePage}/>
+            default:
         }
     }
 
@@ -36,7 +37,7 @@ class LeftSide extends Component {
 
 render (){
     return (
-    <div className='leftSide-View w3-third'>
+    <div className='LeftSide-View w3-twothird'>
     
 
                 <div className="w3-row">
