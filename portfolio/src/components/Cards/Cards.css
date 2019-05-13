@@ -2,7 +2,18 @@
 .card .cardHeader {
      color: #2f384f;
      background-color: #f4f4f4;
+     
 } 
+.card{
+    overflow: auto;
+    position: relative;
+    margin: 20px auto;   
+}
+
+.cardImg{
+    
+    height: 250px;
+}
 
 .card:hover {
     opacity: 0.35;

@@ -1,9 +1,10 @@
 .showcase::after{
     content:"";
     height: 100vh;
-    /* widows: 100%; */
-    /* margin-top: 10px; */
-    background-image: url(../../media/header.jpg);
+
+    widows: 100%;
+    margin-top: 5px;
+    background-image: url(../../media/light3.gif);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -12,8 +13,10 @@
     -webkit-filter: blur(10px);
     transition: all 1000ms;
     background-color: #2f384f;
+
  
 }
+
 .showcase:hover::after{
     filter: blur(0px);
     -webkit-filter: blur(0px);
@@ -31,7 +34,7 @@
 .content {
     position: absolute;
     z-index: 1;
-    top: 10%;
+    top: 20%;
    left: 25%;
     width: 300px;
     height: 350px;
@@ -52,11 +55,23 @@ width: 289px;
 
 .showcaseBtn {
    position: absolute;
+   /* opacity: 0.7; */
     z-index: 0;
     bottom: 5%;
-    left: 20%;    
+    left: 20%;
+    color: #f4f4f4;    
 }
 
-
+@media only screen and (max-width: 600px) {
+    .content {
+        top: 20%;
+        left: 12%
+    }
+    .showcaseBtn{
+        bottom: 5%;
+        left: 2%;
+        
+    }
+  }
 
 

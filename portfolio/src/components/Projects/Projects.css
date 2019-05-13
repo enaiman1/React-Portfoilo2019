@@ -1,6 +1,7 @@
-.Projects{
-    height: 100%;
- 
+.projects{
+    min-height: 100vh; 
     background-color: #7ab643; 
-    margin-top: 60px;
+    margin-top: 50px;
+    /* overflow-y: scroll; */
+    
 }

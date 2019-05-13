@@ -4,11 +4,11 @@ import Link from '../../media/link.png';
 
 
 const Cards = props => (
-    <div className=" w3-container w3-third w3-container w3-margin-bottom card ">
+    <div className=" w3-container w3-third card ">
     <header className="w3-container cardHeader  w3-center">
         <h4>{props.card_data.pName}</h4>
     </header>
-     <img src={props.card_data.image} className="img-responsive" width="100%" />
+     <img src={props.card_data.image} className="cardImg" width="100%" />
     <div className="w3-container cardInfo" >
         <div className="w3-container">
         <p>{props.card_data.description}</p>
