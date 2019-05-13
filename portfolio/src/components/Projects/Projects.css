@@ -1,6 +1,9 @@
 .projects{
     min-height: 100vh; 
-    background-color: #7ab643; 
+    background-image: url(../../media/library.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     margin-top: 50px;
     /* overflow-y: scroll; */
     

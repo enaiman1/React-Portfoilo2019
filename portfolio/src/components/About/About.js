@@ -1,6 +1,6 @@
-import React from 'react'
-import './About.css'
-import Biopic from '../../media/bioPic.JPG'
+import React from 'react';
+import './About.css';
+import Biopic from '../../media/bioPic.JPG';
 
 function About(props) {
   return (
@@ -8,7 +8,7 @@ function About(props) {
 
   {/* image */}
     <div className="w3-row w3-center"> 
-      <img src={Biopic} className= "bioPic" alt="Eric Naiman logo"></img>
+      <img src={Biopic} className= "bioPic" alt="Eric Naiman logo"/>
      </div>
       
       {/* about */}
