@@ -1,7 +1,6 @@
 .showcase::after{
     content:"";
     height: 100vh;
-
     widows: 100%;
     background-image: url(../../media/light3.gif);
     background-size: cover;
@@ -45,11 +44,16 @@ height: 280px;
 width: 289px;
 }
 
-.content .title{
+.content .mainName{
     font-size: 2.2rem;
     margin-top: 1rem;
     color: #f4f4f4;
 
+}
+
+.content .title{
+    font-size: 1.2rem;
+    color: #f4f4f4;
 }
 
 .showcaseBtn {
@@ -57,7 +61,7 @@ width: 289px;
    /* opacity: 0.7; */
     z-index: 0;
     bottom: 5%;
-    left: 20%;
+    left: 25%;
     
      
 }

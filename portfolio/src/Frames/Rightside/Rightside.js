@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Contact from '../../components/Contact'
 import About from '../../components/About'
+import Technology from '../../components/TechUsed'
 import './Rightside.css'
 
 
@@ -12,6 +13,8 @@ showpage(){
     switch(this.state.page){
         case "about": 
         return <About changePage={this.changePage} />
+        case "technology": 
+        return <Technology changePage={this.changePage}/>
         case "contact": 
         return <Contact changePage={this.changePage}/>
         default:   
@@ -28,7 +31,7 @@ changePage = (e) => {
 
 render(){
     return (
-        <div className='RightSide-View w3-third'>
+        <div className='RightSide-View w3-third' >
         <div className="w3-row">
         {this.showpage()}
         </div>

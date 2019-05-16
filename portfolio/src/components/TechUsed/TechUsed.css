@@ -1,6 +1,6 @@
 .techUsed{
-    height: 100%;
-    background-color: #f4f4f4; 
-    color: #2f384f;
+    min-height: 100vh;
+    background-color: #878bbe; 
+    color: #f4f4f4;
     margin-top: 60px;
 }

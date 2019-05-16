@@ -34,9 +34,15 @@ function Contact(props) {
                 </div>
 
                 <div className="w3-row w3-center w3-padding contactBtn s1">
-                    <div className="w3-content">
-                        <button className="w3-button w3-border w3-round" data-page="about" onClick={props.changePage}>About</button>
+
+                <div className="w3-col w3-half">
+                        <button className="w3-button w3-border w3-round aboutBtn" data-page="technology" onClick={props.changePage}>Tech Used</button>
+                    </div> 
+
+                    <div className="w3-content w3-half ">
+                        <button className="w3-button w3-border w3-round aboutBtn" data-page="about" onClick={props.changePage}>About</button>
                     </div>
+                  
                 </div>
             </div>
         </React.Fragment>

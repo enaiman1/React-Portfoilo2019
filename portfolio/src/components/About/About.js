@@ -32,8 +32,12 @@ function About(props) {
         </div>
         {/* end about */}
       </div>
+      {/* buttons */}
       <div className="w3-row w3-center w3-padding s1">
-                <div className=" w3-content">
+                    <div className="w3-col w3-half">
+                        <button className="w3-button w3-border w3-round aboutBtn" data-page="technology" onClick={props.changePage}>Tech Used</button>
+                    </div> 
+                <div className=" w3-content w3-half">
                     <button className="w3-button w3-border w3-round aboutBtn" data-page="contact" onClick={props.changePage}>Contact</button>
                 </div>
             </div>

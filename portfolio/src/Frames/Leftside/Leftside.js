@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 import Showcase from '../../components/Showcase';
-import Technology from '../../components/TechUsed'
 import Projects from '../../components/Projects';
-import Websites from '../../components/Websites';
+import Freelance from '../../components/Freelance';
 import './Leftside.css'
 
 
@@ -14,12 +13,10 @@ class LeftSide extends Component {
         switch(this.state.page){
             case "showcase":
             return <Showcase changePage={this.changePage}/>
-            case "technology": 
-            return <Technology changePage={this.changePage}/>
             case "projects":
             return <Projects changePage={this.changePage}/>
-            case "website":
-            return <Websites changePage={this.changePage}/>
+            case "freelance":
+            return <Freelance changePage={this.changePage}/>
             default:
         }
     }

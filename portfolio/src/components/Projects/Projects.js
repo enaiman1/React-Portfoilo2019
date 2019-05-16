@@ -4,7 +4,7 @@ import Wrapper from '../Wrapper';
 import Visual from '../../data/visuals';
 import Showcase from '../../components/Showcase';
 import Technology from '../../components/TechUsed'
-import Websites from '../../components/Websites';
+import Freelance from '../Freelance';
 
 import './Projects.css';
 
@@ -21,8 +21,8 @@ class Projects extends Component {
             return <Projects changePage={this.changePage}/>
             case "showcase":
             return <Showcase changePage={this.changePage}/>
-            case "website":
-            return <Websites changePage={this.changePage}/>
+            case "freelance":
+            return <Freelance changePage={this.changePage}/>
             case "technology": 
             return <Technology changePage={this.changePage}/>
             default:
@@ -48,23 +48,6 @@ class Projects extends Component {
                     <div className="w3-row w3-center">
                         <h1>Projects</h1>
                     </div>
-
-                    {/* buttons */}
-                <div className="w3-row w3-center projectBtn ">
-                    <div className="w3-col m4 s4">
-                        <button className="w3-button w3-padding w3-margin w3-border w3-round sbtn" data-page="showcase" onClick={this.changePage}>Showcase</button>
-                    </div>
-
-                    <div className="w3-col m4 s4">
-                        <button className="w3-button w3-padding w3-margin w3-border w3-round sbtn" data-page="website" onClick={this.changePage} >Website</button>
-                    </div>
-
-                    <div className="w3-col m4 s4">
-                        <button className="w3-button w3-padding w3-margin w3-border w3-round sbtn" data-page="technology" onClick={this.changePage}>Tech Used</button>
-                    </div>
-                </div>
-                    
-
                     <div className="w3-row"> 
                     <Wrapper>
                         {this.state.Visual.map(Visual => (
@@ -77,7 +60,23 @@ class Projects extends Component {
                     </Wrapper>
                     </div>
                 </div>
+                  {/* buttons */}
+              <div className="w3-row w3-center projectBtn ">
+              <div className="w3-col m4 s4">
+                  <button className="w3-button w3-padding w3-margin w3-border w3-round sbtn" data-page="showcase" onClick={this.changePage}>Showcase</button>
+              </div>
+
+              <div className="w3-col m4 s4">
+                  <button className="w3-button w3-padding w3-margin w3-border w3-round sbtn" data-page="freelance" onClick={this.changePage} >Freelance</button>
+              </div>
+
+              {/* <div className="w3-col m4 s4">
+                  <button className="w3-button w3-padding w3-margin w3-border w3-round sbtn" data-page="technology" onClick={this.changePage}>Tech Used</button>
+              </div> */}
+          </div>
             </React.Fragment>
+           
+            
 
         )
     }
