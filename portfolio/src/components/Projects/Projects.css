@@ -1,10 +1,28 @@
 .projects{
     min-height: 100vh; 
+    margin-top: 15px;
     background-image: url(../../media/library.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     margin-top: 50px;
     /* overflow-y: scroll; */
+    color: #f4f4f4;
     
 }
+
+.projectBtn {
+    /* position: fixed; */
+    /* opacity: 0.7; */
+     z-index: 0;
+     bottom: 5px;
+     left: 20%;
+     /* margin-top: 10px; */
+     
+      
+ }
+ .sbtn{
+     background-color: #f4f4f4;
+     color: #2f384f;
+     font-weight: bold;
+ }

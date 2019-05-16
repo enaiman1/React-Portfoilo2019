@@ -3,16 +3,23 @@
      color: #2f384f;
      background-color: #f4f4f4;
      
+     
 } 
+
+.card .cardHeader {
+    font-weight: bolder;
+}
 .card{
-    overflow: auto;
     position: relative;
     margin: 20px auto;   
 }
 
-.cardImg{
-    
-    height: 250px;
+.cardImg {
+    height: 200px;
+}
+
+.cardInfo {
+ height: 225px;
 }
 
 .card:hover {

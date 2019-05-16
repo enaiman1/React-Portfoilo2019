@@ -7,7 +7,7 @@ const visuals = [
                       and save the books your interested in
         `,
         website:'https://shielded-reef-62266.herokuapp.com/',
-        github:'https://github.com/'
+        github:'https://github.com/enaiman1/Google-Book_Search'
 
     },
   {
@@ -32,15 +32,6 @@ const visuals = [
     },
     {
         id: 4,
-        pName: "Burger Connoisseur",
-        image: require('../media/burger.jpeg'),
-        description: 'The App the allows you to keep track of your burger eating adventure',
-        website:'https://guarded-mesa-72517.herokuapp.com/',
-        github:'https://github.com/enaiman1/Burger'
-
-    },
-    {
-        id: 5,
         pName: "Rail Times",
         image: require('../media/tracks.jpg'),
         description: `Organize and keep track of a trains 
@@ -51,16 +42,16 @@ const visuals = [
 
     },
     {
-        id: 6,
+        id: 5,
         pName: "Safely",
         image: require('../media/dove.jpg'),
-        description: 'Using express.js, this app introduces you to a new friend based on your personal criterias',
+        description: 'An application that lets you know if you are safe in the area your currently in',
         website:'https://soc33.github.io/Safely/',
         github:'https://github.com/soc33/Safely'
 
     },
     {
-        id: 7,
+        id: 6,
         pName: "Friend Finder",
         image: require('../media/friends.jpg'),
         description: 'Using express.js, this app introduces you to a new friend based on your personal criterias',
@@ -69,7 +60,7 @@ const visuals = [
 
     },
     {
-        id: 8,
+        id: 7,
         pName: "Giftastic",
         image: require('../media/curtains.jpg'),
         description: 'Giftastic is dynamic web page that populates with Movie GIFs of your choice.',
@@ -78,25 +69,36 @@ const visuals = [
 
     },
     {
-        id: 9,
+        id: 8,
         pName: "Pub Trivia",
         image: require('../media/pubTrivia.jpg'),
-        description: 'Giftastic is dynamic web page that populates with Movie GIFs of your choice.',
+        description: `A trivia game using JavaScript timing events for each question and 
+        jQuery to dynamically generate HTML`,
         website:'https://enaiman1.github.io/TriviaGame/',
         github:'https://github.com/enaiman1/TriviaGame'
 
     },
     {
-        id: 10,
+        id: 9,
         pName: "Crystal Collector",
         image: require('../media/cave.jpg'),
-        description: `A trivia game webpage uses JavaScript timing events for each question and 
-                      jQuery to dynamically generate HTML
-        `,
+        description: `An interactive web browsers game that dynamically 
+                      updates the HTML with the jQuery library. `
+        ,
         website:'https://github.com/enaiman1/Crystal-Collector',
         github:' https://enaiman1.github.io/Crystal-Collector/'
 
-    }
+    },
+    {
+        id: 10,
+        pName: "Burger Connoisseur",
+        image: require('../media/burger.jpeg'),
+        description: 'The App the allows you to keep track of your burger eating adventure',
+        website:'https://guarded-mesa-72517.herokuapp.com/',
+        github:'https://github.com/enaiman1/Burger'
+
+    },
+     
     
 
 ]

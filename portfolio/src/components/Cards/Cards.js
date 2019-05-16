@@ -4,9 +4,9 @@ import Link from '../../media/link.png';
 
 
 const Cards = props => (
-    <div className=" w3-container w3-third card ">
-    <header className="w3-container cardHeader  w3-center">
-        <h4>{props.card_data.pName}</h4>
+    <div className=" w3-container w3-third w3-padding card ">
+    <header className="w3-container cardHeader w3-center">
+        <h3>{props.card_data.pName}</h3>
     </header>
      <img src={props.card_data.image} className="cardImg" width="100%" />
     <div className="w3-container cardInfo" >

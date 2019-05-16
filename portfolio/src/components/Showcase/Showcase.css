@@ -3,7 +3,6 @@
     height: 100vh;
 
     widows: 100%;
-    margin-top: 5px;
     background-image: url(../../media/light3.gif);
     background-size: cover;
     background-repeat: no-repeat;
@@ -59,8 +58,16 @@ width: 289px;
     z-index: 0;
     bottom: 5%;
     left: 20%;
-    color: #f4f4f4;    
+    
+     
 }
+.sbtn{
+    background-color: #f4f4f4;
+    color: #2f384f;
+    font-weight: bold;
+}
+
+
 
 @media only screen and (max-width: 600px) {
     .content {
