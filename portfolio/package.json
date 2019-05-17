@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "gh-pages": "^2.0.1",
     "normalize": "^0.3.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
@@ -13,11 +12,8 @@
     "react-scripts": "3.0.0",
     "react-transition-group": "^4.0.1"
   },
-  "homepage": "https://enaiman1.github.io/React-Portfoilo/.",
   "scripts": {
     "start": "react-scripts start",
-    "predeploy": "yarn run build",
-    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
