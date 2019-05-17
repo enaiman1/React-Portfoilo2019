@@ -1,7 +1,58 @@
-.website{
+.freelance{
     height: 100vh;
-    overflow: auto;
-    background-color: #6c7936; 
+    widows: 100%;
+    background-image: url(../../media/lantern.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     color: #f4f4f4;
+   
 
+}
+
+.flTitle {
+    position: relative;
+    top: 10%;
+}
+
+.freelanceBtn{
+    position: absolute;
+     bottom: 5%;
+     left: 22%;
+}
+
+
+.flbtn {
+    background-color: #f4f4f4;
+    color: #2f384f;
+    font-weight: bold;
+}
+
+.flContent{
+ position: relative;;
+ left: 35%;
+ top: 15%;
+}
+
+.flCard .flCardInfo,
+.flCard .flCardHeader {
+     color: #2f384f;
+     background-color: #f4f4f4;
+     
+     
+} 
+.flCard .flCardHeader {
+    font-weight: bolder;
+}
+.flCard{
+    position: relative;
+    margin: 20px auto;   
+}
+
+.flCardImg {
+    height: 200px;
+}
+
+.flCardInfo {
+ height: 225px;
 }

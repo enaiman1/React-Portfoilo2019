@@ -14,6 +14,7 @@ function TechUsed(props) {
 
     <h2 className="w3-padding-16 w3-center" >Technologies Used</h2>
     
+    <div className="w3-row techContent"> 
     {/* <!-- row one(techused) --> */}
     <div className="w3-row w3-margin-top  ">
       {/* <!-- Html icon --> */}
@@ -84,7 +85,7 @@ function TechUsed(props) {
     {/* <!-- end row three(techUsed) --> */}
 
     {/* <!-- row four (tech used) --> */}
-    <div className="w3-row w3-margin-top w3-padding">
+    <div className="w3-row w3-margin-top">
         {/* <!--visual studo icon --> */}
         <div className="w3-col w3-center w3-padding m3 s6">
             <i className="devicon-visualstudio-plain-wordmark colored fa-5x"></i>
@@ -104,7 +105,7 @@ function TechUsed(props) {
         </div>
       </div>
       {/* <!-- //end row four (techUsed)\\ --> */}
-      
+      </div>
       {/* buttons */}
      <div className="w3-row  w3-center">
   <div className="w3-col w3-half">

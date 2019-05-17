@@ -2,7 +2,7 @@
    min-height: 100vh;
     background-color:  #9dacbd; 
     color: #f4f4f4;
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
 .techPic {
@@ -12,10 +12,15 @@
     padding: 1rem;
 }
 
+.techContent{
+    margin-bottom: 50px; 
+}
+
 .techBtn {
     background-color: #f4f4f4;
     color: #2f384f;
     font-weight: bold;
+    
 }
 
 @media only screen and (max-width: 600px) {

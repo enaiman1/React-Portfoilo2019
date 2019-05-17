@@ -24,9 +24,7 @@
     -webkit-filter: blur(2px);
 }
 
-.showcase:hover .showcaseBtn {
-    z-index: 1;
-}
+
 
 /* logo */
 .content {
@@ -59,12 +57,22 @@ width: 289px;
 .showcaseBtn {
    position: absolute;
    /* opacity: 0.7; */
-    z-index: 0;
+    z-index: 1;
     bottom: 5%;
     left: 25%;
+    filter: blur(10px);
+    -webkit-filter: blur(10px);
     
      
 }
+
+.showcase:hover .showcaseBtn {
+    filter: blur(0px);
+    -webkit-filter: blur(0px);
+} 
+
+
+
 .sbtn{
     background-color: #f4f4f4;
     color: #2f384f;

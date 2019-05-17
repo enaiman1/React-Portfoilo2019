@@ -8,7 +8,7 @@ function Nav() {
     <nav className="w3-top">
       <div className="w3-bar w3-card navBar ">
         
-          <a href="#" className=" w3-button w3-padding w3-hover-indigo navName w3-mobile "><b>Eric Naiman</b></a>
+          <div className=" w3-button w3-padding w3-hover-indigo navName w3-mobile "><b>Eric Naiman</b></div>
         
         {/* nav links */}
         <div className="w3-right w3-mobile navLinks">
