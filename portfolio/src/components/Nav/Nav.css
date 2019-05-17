@@ -1,4 +1,23 @@
-.nav {
+.navBar {
     background-color: #f4f4f4;
-    color: #2f384f;;
+    color: #2f384f;
+    
 }
+.navBar .navName{
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+@media only screen and (max-width: 600px) {
+    .navBar .navName{
+        font-size: 1.5rem;
+    }
+
+    .navBar .navLinks{
+text-align: center;
+        
+    }
+
+    
+   
+  }

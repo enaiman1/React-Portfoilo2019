@@ -62,12 +62,12 @@ class Projects extends Component {
                 </div>
                   {/* buttons */}
               <div className="w3-row w3-center projectBtn ">
-              <div className="w3-col m4 s4">
-                  <button className="w3-button w3-padding w3-margin w3-border w3-round sbtn" data-page="showcase" onClick={this.changePage}>Showcase</button>
+              <div className="w3-col m6 s12">
+                  <button className="w3-button w3-margin w3-border w3-round pbtn" data-page="showcase" onClick={this.changePage}>Showcase</button>
               </div>
 
-              <div className="w3-col m4 s4">
-                  <button className="w3-button w3-padding w3-margin w3-border w3-round sbtn" data-page="freelance" onClick={this.changePage} >Freelance</button>
+              <div className="w3-col m6 s12">
+                  <button className="w3-button w3-margin w3-border w3-round pbtn" data-page="freelance" onClick={this.changePage} >Freelance</button>
               </div>
 
               {/* <div className="w3-col m4 s4">

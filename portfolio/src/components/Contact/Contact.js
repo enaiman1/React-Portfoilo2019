@@ -12,15 +12,15 @@ function Contact(props) {
                     <img src={Contactpic} className="contactPic" alt="contact pic" />
                 </div>
 
-                <div className="w3-row">
-                <h2 className=" w3-center">Contact</h2>
-                    <div className="w3-container">
+                <div className="w3-row ">
+                    <h2 className=" w3-center">Contact</h2>
+                    <div className="w3-container contactContainter">
                         <p className="w3-opacity w3-center"><i>Fan? Drop a note!</i></p>
                         <div className="w3-row">
                             <div className="w3-col w3-padding w3-margin-bottom">
                                 <i className="fa fa-map-marker"></i> Orlando, US < br ></br>
                                 <a href="mailto:Enaiman1@gmail.com">
-                                <i className="fa fa-envelope"> </i> Email: enaiman1@gmail.com<br></br>
+                                    <i className="fa fa-envelope"> </i> Email: enaiman1@gmail.com<br></br>
                                 </a>
                                 <a href="https://github.com/enaiman1" target="_blank" rel="noopener noreferrer">
                                     <i className="fab fa-github"></i> GitHub<br></br>
@@ -33,16 +33,16 @@ function Contact(props) {
                     </div>
                 </div>
 
-                <div className="w3-row w3-center w3-padding contactBtn s1">
+                <div className="w3-row w3-center">
 
-                <div className="w3-col w3-half">
-                        <button className="w3-button w3-border w3-round aboutBtn" data-page="technology" onClick={props.changePage}>Tech Used</button>
-                    </div> 
-
-                    <div className="w3-content w3-half ">
-                        <button className="w3-button w3-border w3-round aboutBtn" data-page="about" onClick={props.changePage}>About</button>
+                    <div className="w3-col m6 s12">
+                        <button className="w3-button w3-margin w3-border w3-round contactBtn" data-page="technology" onClick={props.changePage}>Tech Used</button>
                     </div>
-                  
+
+                    <div className="w3-col m6 s12 ">
+                        <button className="w3-button w3-margin w3-border w3-round contactBtn" data-page="about" onClick={props.changePage}>About</button>
+                    </div>
+
                 </div>
             </div>
         </React.Fragment>
