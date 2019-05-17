@@ -13,7 +13,7 @@
     "react-scripts": "3.0.0",
     "react-transition-group": "^4.0.1"
   },
-  "homepage": "https://enaiman1.github.io/Clicky_Game/",
+  "homepage": "https://enaiman1.github.io/React-Portfoilo/",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
