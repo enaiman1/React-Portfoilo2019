@@ -12,34 +12,9 @@ import './Projects.css';
 class Projects extends Component {
     state = {
         Visual,
-        page: "projects"
-
-    }
-    showpage(){
-        switch(this.state.page){
-            case "projects":
-            return <Projects changePage={this.changePage}/>
-            case "showcase":
-            return <Showcase changePage={this.changePage}/>
-            case "freelance":
-            return <Freelance changePage={this.changePage}/>
-            case "technology": 
-            return <Technology changePage={this.changePage}/>
-            default:
-        }
-    }
-
-
-    changePage = (e) => {
-        e.preventDefault();
-        console.log(e.target.getAttribute("data-page"));
-        this.setState({
-         page: e.target.getAttribute("data-page")
-         
-
-        })
         
     }
+   
     render() {
         return (
             <React.Fragment>
