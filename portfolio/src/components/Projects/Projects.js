@@ -2,9 +2,6 @@ import React, { Component } from 'react';
 import Cards from '../Cards';
 import Wrapper from '../Wrapper';
 import Visual from '../../data/visuals';
-import Showcase from '../../components/Showcase';
-import Technology from '../../components/TechUsed'
-import Freelance from '../Freelance';
 
 import './Projects.css';
 
