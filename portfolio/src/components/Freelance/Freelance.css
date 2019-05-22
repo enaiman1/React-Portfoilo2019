@@ -56,3 +56,16 @@
 .flCardInfo {
  height: 225px;
 }
+
+@media only screen and (max-width: 600px) {
+    .flContent{
+        top: 6%;
+        left: 1%;
+        margin-bottom: 15px;
+    }
+    .freelanceBtn{
+        /* bottom: 5%; */
+        left: 10%;
+       
+    }
+  }

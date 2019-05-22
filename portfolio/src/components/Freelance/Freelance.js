@@ -31,11 +31,11 @@ function Freelance(props) {
 
                 {/* button */}
                 <div className="w3-row  w3-center freelanceBtn">
-                    <div className="w3-col m6 s4">
-                        <button className="w3-button w3-padding w3-margin w3-border w3-round flbtn" data-page="showcase" onClick={props.changePage}>Showcase</button>
+                    <div className="w3-col m6 s12">
+                        <button className="w3-button w3-margin w3-border w3-round flbtn" data-page="showcase" onClick={props.changePage}>Showcase</button>
                     </div>
-                    <div className=" w3-col m6 s4">
-                        <button className="w3-button w3-padding w3-margin w3-border w3-round flbtn" data-page="projects" onClick={props.changePage}>Projects</button>
+                    <div className=" w3-col m6 s12">
+                        <button className="w3-button w3-margin w3-border w3-round flbtn" data-page="projects" onClick={props.changePage}>Projects</button>
                     </div>
                     {/* <div className="w3-col m4">
                     <button className="w3-button w3-white w3-border w3-round" data-page="technology" onClick={props.changePage}>Tech Used</button>

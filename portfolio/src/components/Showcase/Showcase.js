@@ -24,12 +24,12 @@ function Showcase(props) {
                 </div>
                 {/* buttons */}
                 <div className="w3-row w3-center showcaseBtn">
-                    <div className="w3-col m6 s4">
-                        <button className="w3-button w3-padding w3-margin w3-border w3-round sbtn" data-page="projects" onClick={props.changePage}>Projects</button>
+                    <div className="w3-col m6 s12">
+                        <button className="w3-button w3-margin w3-border w3-round sbtn" data-page="projects" onClick={props.changePage}>Projects</button>
                     </div>
 
-                    <div className="w3-col m6 s4">
-                        <button className="w3-button w3-padding w3-margin w3-border w3-round sbtn" data-page="freelance" onClick={props.changePage} >Freelance</button>
+                    <div className="w3-col m6 s12">
+                        <button className="w3-button w3-margin w3-border w3-round sbtn" data-page="freelance" onClick={props.changePage} >Freelance</button>
                     </div>
 
                     {/* <div className="w3-col m4 s4">
