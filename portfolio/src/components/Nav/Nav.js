@@ -2,9 +2,14 @@ import React from 'react'
 import './Nav.css'
 
 
+function shuffle(array){
 
+
+  return array;
+}
 function Nav() {
   return (
+
     <nav className="w3-top">
       <div className="w3-bar w3-card navBar ">
         

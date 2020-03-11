@@ -23,11 +23,11 @@ const visuals = [
     },
     {
         id: 3,
-        pName: "PetsPurration",
-        image: require('../media/pets.jpeg'),
-        description: 'This Fullstack App is a Puurrrfectly phenomenal way to find your new companion',
-        website:'https://boiling-everglades-73840.herokuapp.com',
-        github:'https://github.com/enaiman1/PetsPurration'
+        pName: "PasswordGenerator",
+        image: require('../media/passwordGenerator.jpg'),
+        description: 'This Angular Application will a generate a random password',
+        website:'https://angular-password-generator-zeta.now.sh/',
+        github:'https://github.com/enaiman1/AngularPasswordGenerator'
 
     },
     {
